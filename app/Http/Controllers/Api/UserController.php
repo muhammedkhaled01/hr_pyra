@@ -56,7 +56,7 @@ class UserController extends Controller
     public function __construct(UserService $userService, UserDetailService $userDetailService)
     {
 
-        // Ay haga s
+        // Ay haga sf
         $this->middleware('auth:api')->except(['store']);
 
         $this->userService = $userService;
