@@ -103,6 +103,7 @@ class ClockController extends Controller
     protected $clockService;
     public function __construct(ClockService $clockService)
     {
+        //ijhjiohuiohuig
         $this->clockService = $clockService;
         // $this->middleware('permission:clock-list')->only(['allClocks', 'getUserClocksById', 'getClockById']);
         // $this->middleware('permission:clock-create')->only(['hrClockIn']);
